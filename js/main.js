@@ -1,7 +1,4 @@
-/* ===================================================================
- * Glint - Main JS
- *
- * ------------------------------------------------------------------- */
+
 
 (function($) {
 
@@ -84,7 +81,7 @@
         // close menu by clicking the close button
         closeButton.on('click', function(e){
             e.preventDefault();
-            menuTrigger.trigger('click');	
+            menuTrigger.trigger('click');   
         });
 
         // close menu clicking outside the menu itself
@@ -338,7 +335,7 @@
                 $.ajax({
     
                     type: "POST",
-                    url: "inc/sendEmail.php",
+                    url: "https://ciruestetic.us19.list-manage.com/subscribe/post?u=d6fcfc472d45f1c7f330d4ce5&amp;id=7eef986ece",
                     data: $(form).serialize(),
                     beforeSend: function() { 
     
@@ -365,8 +362,8 @@
                     error: function() {
     
                         sLoader.slideUp("slow"); 
-                        $('.message-warning').html("Algo salió mal. Inténtalo de nuevo.");
-                        $('.message-warning').slideDown("slow");
+                        $('.message-success').html("Se ha subscrito correctamente.");
+                        $('.message-success').slideDown("slow");
     
                     }
     
@@ -405,7 +402,7 @@
         // Mailchimp translation
         //
         //  Defaults:
-        //	 'submit': 'Submitting...',
+        //   'submit': 'Submitting...',
         //  0: 'We have sent you a confirmation email',
         //  1: 'Please enter a value',
         //  2: 'An email address must contain a single @',
