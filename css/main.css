@@ -43,6 +43,10 @@ a:hover, a:active {
     outline: 0;
 }
 
+.title{
+    text-transform: uppercase;
+}
+
 
 
 /* ===================================================================
