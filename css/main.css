@@ -14,7 +14,7 @@ html, body {
 }
 
 body {
-    background: #111111;
+    background: #fff;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.7rem;
     font-style: normal;
@@ -1329,9 +1329,27 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * responsive:
  * section-header
  * ------------------------------------------------------------------- */
+@media only screen and (max-width: 1500px) {
+    .section-header {
+        max-width: 800px;
+    }
+
+    .form-cont{
+        width: 70%
+    }
+
+    .form-cont input{
+        background-color: white;border-radius: 100px;width: 100%;text-align: center;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     .section-header {
         max-width: 800px;
+    }
+
+    .form-cont{
+        width: 70%
     }
 }
 
@@ -1348,6 +1366,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .section-header.has-bottom-sep::before {
         width: 400px;
     }
+    .form-cont{
+        width: 80%
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -1356,6 +1377,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     }
     .section-header.has-bottom-sep::before {
         width: 250px;
+    }
+
+    .form-cont{
+        width: 100%
     }
 }
 
@@ -3165,7 +3190,7 @@ html.no-csstransitions .home-content__main {
 .message-warning, 
 .message-success {
     display: none;
-    background: #111111;
+    background: #d2d2d2;
     font-size: 1.5rem;
     line-height: 2;
     padding: 3rem;
