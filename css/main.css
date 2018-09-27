@@ -1345,6 +1345,16 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .form-cont input{
         background-color: white;border-radius: 100px;width: 100%;text-align: center;
     }
+
+    .dev{
+        font-size: 15px;
+        padding-left: 45%;
+        color: #868686;
+    }
+
+    .dev a{
+        color: #868686;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -1355,11 +1365,31 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .form-cont{
         width: 70%
     }
+
+    .dev{
+        font-size: 15px;
+        padding-left: 45%;
+        color: #868686;
+    }
+
+    .dev a{
+        color: #868686;
+    }
 }
 
 @media only screen and (max-width: 900px) {
     .section-header {
         max-width: 700px;
+    }
+
+    .dev{
+        font-size: 15px;
+        padding-left: 40%;
+        color: #868686;
+    }
+
+    .dev a{
+        color: #868686;
     }
 }
 
@@ -1373,6 +1403,16 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .form-cont{
         width: 80%
     }
+
+    .dev{
+        font-size: 15px;
+        padding-left: 35%;
+        color: #868686;
+    }
+
+    .dev a{
+        color: #868686;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -1385,6 +1425,16 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
     .form-cont{
         width: 100%
+    }
+
+    .dev{
+        font-size: 15px;
+        padding-left: 30%;
+        color: #868686;
+    }
+
+    .dev a{
+        color: #868686;
     }
 }
 
@@ -2147,7 +2197,7 @@ html.no-csstransitions .home-content__main {
     }
     .home-content__buttons .btn {
         display: block;
-        width: 70%;
+        width: 90%;
         margin: 1.5rem 0 0 0;
     }
     .home-social {
@@ -2184,6 +2234,10 @@ html.no-csstransitions .home-content__main {
     .home-content__line {
         height: 7.2rem;
     }
+
+    .wi{
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -2210,11 +2264,19 @@ html.no-csstransitions .home-content__main {
     .home-social {
         display: none;
     }
+
+    .wi{
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 450px) {
     .home-content h1 {
         font-size: 3.3rem;
+    }
+
+    .wi{
+        width: 100%;
     }
 }
 
@@ -2228,6 +2290,10 @@ html.no-csstransitions .home-content__main {
     .home-content__main {
         padding-top: 16.2rem;
         width: auto;
+    }
+
+    .wi{
+        width: 100%;
     }
 }
 
