@@ -1348,7 +1348,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
     .dev{
         font-size: 15px;
-        padding-left: 45%;
+        padding-left: 38%;
         color: #868686;
     }
 
@@ -1368,7 +1368,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
     .dev{
         font-size: 15px;
-        padding-left: 45%;
+        padding-left: 38%;
         color: #868686;
     }
 
@@ -1430,6 +1430,30 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .dev{
         font-size: 15px;
         padding-left: 30%;
+        color: #868686;
+    }
+
+    .dev a{
+        color: #868686;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .section-header.has-bottom-sep {
+        padding-bottom: 0;
+    }
+    .section-header.has-bottom-sep::before {
+        width: 250px;
+    }
+
+    .form-cont{
+        width: 100%
+    }
+
+    .dev{
+        font-size: 15px;
+        padding-left: 20%;
         color: #868686;
     }
 
@@ -2296,6 +2320,8 @@ html.no-csstransitions .home-content__main {
         width: 100%;
     }
 }
+
+
 
 
 
